@@ -1,0 +1,18 @@
+﻿<Window x:Class="ParentControl.Views.NotificationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ParentControl.Views"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        mc:Ignorable="d"
+        Title="NotificationWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="237*"/>
+            <ColumnDefinition Width="557*"/>
+        </Grid.ColumnDefinitions>
+        <Image Name="Img" Width="400" Height="200" Margin="194,33,199.6,187" Grid.ColumnSpan="2" ></Image>
+        <Label Content="" Name="Message" HorizontalAlignment="Left" Margin="60.413,293,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+    </Grid>
+</Window>
